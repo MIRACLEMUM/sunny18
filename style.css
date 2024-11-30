@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.navbar{
+  background-color:;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar ul{
+  display: flex;
+  float: right;
+  gap: 10px;
+}
+
+.navbar li {
+  list-style-type: none;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  font-size: 17px;
+  color: brown;
+  
+}
+
+
+
+.navbar a:hover{
+  color: black;
+
+}
+
+
+
+
+
+
+
