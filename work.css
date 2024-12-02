@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color:#f7f4c9;
+}
+.navbar  {
+    background-color:#8b0a1a;
+    padding: 30PX;
+}
+.navbar .logo{
+    font-size: 30px;
+    background-image: url(./20.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.navbar ul{
+    display: flex;
+    float: right;
+
+} 
+
+.navbar li{
+    list-style-type: none;
+    
+    
+
+}
+
+.navbar li .active{
+    color: #ffff00;
+}
+
+
+.navbar a{
+    padding-inline: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+
+
+}
+
+.navbar a:hover{
+    color: #ffff00;
+    
+
+}
+
+
+.main{
+    padding-top: 100px;
+    margin: 30px;
+
+}
+.main .left{
+    float: left;
+    
+    
+}
+h1{
+    color: #333333;
+    font-size: 30px ;
+    
+}
+.main P{
+    color: #444444;
+    font-size: 20px;
+}
+button{
+    font-size: 17px;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    
+
+}
+
+.main button:hover{
+    transition: 15ms ;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px brown;
+    border-radius: 7px;
+}
+
+.main .right{
+    float: right;
+    
+
+
+}
+
+.main img{
+    width: 700px;
+    margin-left: 110px;
+    border:2px solid #f7f4c9;
+    border-radius: 70px ;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 20px;
+    margin-left: 30px;
+    grid-column-gap: 20px;
+    grid-row-gap:30px ;
+
+
+    
+    
+
+}
+.container img{
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.container img:hover{
+    border: none;
+    transition: 10ms;
+    transform: scale(1.1);
+}
+
+.container h4{
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+.container button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: orangered;
+    margin-left: 100px;
+       
+}
+.container button:hover{
+    transform: scale(1.1);
+    transition: 30ms ease-in-out;
+    box-shadow: 5px 5px 5px  red;
+
+
+}
