@@ -136,6 +136,21 @@ margin-bottom: 10px;
 
 }
 
+@media  (max-width:400px){
+  .content{
+    width: 100px;
+  }
+
+}
+
+@media (min-width: 610px) {
+  .content {
+    width: 100%;
+    
+  }
+  
+}
+
 
 
 
@@ -151,3 +166,4 @@ margin-bottom: 10px;
 
 
 
+f
